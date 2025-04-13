@@ -6,11 +6,11 @@
 
 <div id="main"> 
 	<div id="residential-complex">
-		<h3 id="residential-complex__title">Функционал бронирования мест в кино</h3>
+		<h3 id="residential-complex__title">Функционал выбора мест в кино</h3>
 	</div>
 	<div id="residential-complex"> 
-	<span>Идея для проекта взята с сайта "Яндекс афиша" </span>
-	<img src="maket.png"> 
+	<h4>Идея для проекта взята с сайта "Яндекс Афиша" </h4>
+	<img src="maket.png" witch="400px" height="400px" style="margin-top:10px"> 
 	</div>
 	<div id="residential-complex__box">
 		<h4>Результат и что используется:</h4>
