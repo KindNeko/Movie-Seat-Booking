@@ -16,7 +16,7 @@
 		<h4>Результат и что используется:</h4>
 		<ol id="residential-complex__list">
 			<li id="residential-complex__item">
-			 Результат - <a href="https://kindneko.github.io/Form-Validation/" target="_blank">ссылка на готовый проект</a> 
+			 Результат - <a href="https://kindneko.github.io/Movie-Seat-Booking/" target="_blank">ссылка на готовый проект</a>
 			</li>
 			<li id="residential-complex__item">
 			 html, css, js
