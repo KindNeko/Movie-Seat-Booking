@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+body {
+	color: #e5e7eb;
+	background-color: #1a202c;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+.cinema-hall {
+	perspective: 1000px;
+	margin-bottom: 30px;
+}
+
+.seat-legend {
+	margin: 20px 0;
+}
+
+#movie-select {
+	background-color: #fff;
+	border: 0;
+	border-radius: 5px;
+	font-size: 14px;
+	margin-left: 10px;
+	padding: 5px 15px;
+	appearance: none;
+}
+
+.seat {
+	background-color: #444451;
+	height: 12px;
+	width: 15px;
+	margin: 3px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.seat.selected {
+	background-color: #6fe;
+}
+
+.seat.occupied {
+	background-color: #fff;
+}
+
+.seat:nth-of-type(2) {
+	margin-right: 18px;
+}
+.seat:nth-last-of-type(2) {
+	margin-left: 18px;
+}
+
+.seat:not(.occupied):hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+.legend-item .seat:not(.occupied):hover {
+	cursor: default;
+	transform: none;
+}
+
+.seat-legend {
+	background: #2d3748;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+.legend-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 10px;
+}
+
+.legend-item small {
+	margin-left: 2px;
+}
+
+.row {
+	display: flex;
+}
+
+.screen-indicator {
+	background: #fff;
+	height: 70px;
+	width: 100%;
+	margin: 15px 0;
+	transform: rotateX(-45deg);
+	box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.7);
+}
+
+.booking-summary span {
+	color: #8b94a2;
+}
