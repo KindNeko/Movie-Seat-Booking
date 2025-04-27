@@ -111,3 +111,10 @@ body {
 .booking-summary span {
 	color: #8b94a2;
 }
+
+.form-group {
+	gap: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
